@@ -2,6 +2,8 @@
 
 Based on https://docs.dapr.io/developing-applications/building-blocks/pubsub/howto-publish-subscribe/
 
+UPDATE: This now preserves the **not** working state to aid this issue: https://github.com/dapr/docs/issues/2193
+
 ## Goal
 
 Have two services - 'checkout' and 'orderprocessing' - subscribe and publish to the message broker, respectively.
